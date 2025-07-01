@@ -1,6 +1,10 @@
-# pcileech-BCM5721
+# Pcileech-BCM5721
 pcileech-fpga BCM5721进行仿真
 
+# connect | 联系方式
+* [Discord](https://discord.gg/GvCKVegSbr)
+* QQ ：385988913
+* [学习群 ](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JyQKMdXMLaEUGXxV9Ep_zk9GxOBrqVGf&authKey=PkHVshFZlo0xIHfuGnpwTpxhnha0emaBHH9u4TvD%2FAAxB4qL4mnPM8orfig%2FjxFE&noverify=0&group_code=175967814)
 
 # Pictures | 图片
 ![8432101438fedabf8d53dceac26e61d9](https://github.com/user-attachments/assets/a6b8327d-9c0e-4bb3-9ae5-057d007c0809)
