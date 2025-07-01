@@ -7,8 +7,7 @@ pcileech-fpga BCM5721进行仿真
 * [学习群 ](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=JyQKMdXMLaEUGXxV9Ep_zk9GxOBrqVGf&authKey=PkHVshFZlo0xIHfuGnpwTpxhnha0emaBHH9u4TvD%2FAAxB4qL4mnPM8orfig%2FjxFE&noverify=0&group_code=175967814)
 
 # Pictures | 图片
-![8432101438fedabf8d53dceac26e61d9](https://github.com/user-attachments/assets/a6b8327d-9c0e-4bb3-9ae5-057d007c0809)
-
+![d9bd3e6c6436c6871c2ea52b6651a862](https://github.com/user-attachments/assets/e2a21310-0147-432a-9b2b-035da2dc2fd5)
 
 # Usage | 使用
 This firmware was created for researching purposes only.  \
