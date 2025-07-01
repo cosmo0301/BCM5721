@@ -122,9 +122,9 @@ module pcileech_bar_impl_BCM(
                     if(data_044c == 32'h28220000) data_044c <= 32'h8220020;
                     if(data_044c == 32'h28240000) data_044c <= 32'h8240de1;
                     if(data_044c == 32'h28290000) data_044c <= 32'h8290300;	
-					if (data_044c[23:16] == 8'h25 || data_044c[23:16] == 8'h30 || data_044c[23:16] == 8'h31 || data_044c[27:24] == 4'h4）begin
-						data_044c <= {4'h0,data_044c[27:0]};
-					end	
+		    if (data_044c[23:16] == 8'h25 || data_044c[23:16] == 8'h30 || data_044c[23:16] == 8'h31 || data_044c[27:24] == 4'h4）begin
+			data_044c <= {4'h0,data_044c[27:0]};
+	            end	
                 end
 
                 16'h0070 : begin
