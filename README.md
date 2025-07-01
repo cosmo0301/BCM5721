@@ -23,13 +23,8 @@ This project aims to test the current top-level anti cheating methods for FPGA w
 
 It has been abused on the ACE anti entertainment platform for over 80 days.
 
-它在ACE反娱乐平台上被滥用了超过80天）。
-
-More than five people have been banned recently
-
-最近有超过五名得到了禁令
+它在ACE反娱乐平台上被滥用了超过80天。
 ﻿
-
 Therefore, this project is considered unsafe and outdated.
 
 因此，认为这个项目是不安全和过时的。
