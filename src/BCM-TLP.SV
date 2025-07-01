@@ -61,7 +61,6 @@ module pcileech_bar_impl_BCM(
     reg [31:0]      data_048c;
     reg [31:0]      counter_2838;
 
-
     always @ (posedge clk) begin
         if (rst)begin
             data_5004 <= 32'h80008000;
