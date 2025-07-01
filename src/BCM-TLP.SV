@@ -245,13 +245,13 @@ module pcileech_bar_impl_BCM(
                 16'h700c : begin
                     case (dwr_data)
                         32'h7c : begin 
-							data_700c <= 32'h7c; 
-							data_7010 <= 32'h10;
-						end
+				data_700c <= 32'h7c; 
+				data_7010 <= 32'h10;
+			end
                         32'h80 : begin 
-							data_700c <= 32'h80; 
-							data_7010 <= 32'h184e8be7;
-						end
+				data_700c <= 32'h80; 
+				data_7010 <= 32'h184e8be7;
+			end
                         32'h0  : begin data_700c <= 32'h0;  data_7010 <= 32'h669955aa;end
                     endcase
                 end
