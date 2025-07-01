@@ -1,0 +1,1393 @@
+/*
+
+AMD Vivado v2024.1 (64-bit) [Major: 2024, Minor: 1]
+SW Build: 5076996 on Wed May 22 18:37:14 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+
+Process ID (PID): 21264
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jul 02 00:28:43 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1040
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+JavaFX version: 21.0.1
+Java home: 	f:/FPGA/Vivado/2024.1/tps/win64/jre21.0.1_12
+Java executable: 	f:/FPGA/Vivado/2024.1/tps/win64/jre21.0.1_12/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	cosmo
+User home directory: C:/Users/cosmo
+User working directory: F:/BaiduSyncdisk/NeedToBeDone/BCM5572NEW/Opnesource
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: f:/FPGA/Vivado
+HDI_APPROOT: f:/FPGA/Vivado/2024.1
+RDI_DATADIR: f:/FPGA/SharedData/2024.1/data;f:/FPGA/Vivado/2024.1/data
+RDI_BINDIR: f:/FPGA/Vivado/2024.1/bin
+
+Vivado preferences file: C:/Users/cosmo/AppData/Roaming/Xilinx/Vivado/2024.1/vivado.xml
+Vivado preferences directory: C:/Users/cosmo/AppData/Roaming/Xilinx/Vivado/2024.1/
+Vivado layouts directory: C:/Users/cosmo/AppData/Roaming/Xilinx/Vivado/2024.1/data/layouts
+PlanAhead jar file: 	F:/FPGA/Vivado/2024.1/lib/classes/planAhead.jar
+Vivado log file: 	
+Vivado journal file: 	
+Engine tmp dir: 	F:/BaiduSyncdisk/NeedToBeDone/BCM5572NEW/Opnesource/.Xil/Vivado-21264-DESKTOP-OFHPUE8
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: f:/FPGA/Vivado/2024.1
+RDI_ARGS:  -source vivado_generate_project_captain_75T.tcl -notrace -nolog -nojournal
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: f:/FPGA/Vivado
+RDI_BINDIR: f:/FPGA/Vivado/2024.1/bin
+RDI_BINROOT: f:/FPGA/Vivado/2024.1/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: f:/FPGA/SharedData/2024.1/data;f:/FPGA/Vivado/2024.1/data
+RDI_INSTALLROOT: f:/FPGA
+RDI_INSTALLVER: 2024.1
+RDI_INSTALLVERSION: 2024.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: f:/FPGA/Vivado/2024.1/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: f:/FPGA/Vivado/2024.1/tps/win64/javafx-sdk-21.0.1
+RDI_JAVAROOT: f:/FPGA/Vivado/2024.1/tps/win64/jre21.0.1_12
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: f:/FPGA/Vivado/2024.1/lib/win64.o
+RDI_MINGW_LIB: f:/FPGA/Vivado/2024.1\tps\mingw\6.2.0\win64.o\nt\bin;f:/FPGA/Vivado/2024.1\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: f:/FPGA/Vitis/2024.1/bin;f:/FPGA/Vivado/2024.1/ids_lite/ISE/bin/nt64;f:/FPGA/Vivado/2024.1/ids_lite/ISE/lib/nt64
+RDI_PROG: f:/FPGA/Vivado/2024.1/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: f:/FPGA/Vivado/2024.1\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: f:/FPGA/Vivado/2024.1\tps\win64\python-3.8.3
+RDI_PYTHONPATH: f:/FPGA/Vivado/2024.1\tps\win64\python-3.8.3;f:/FPGA/Vivado/2024.1\tps\win64\python-3.8.3\bin;f:/FPGA/Vivado/2024.1\tps\win64\python-3.8.3\lib;f:/FPGA/Vivado/2024.1\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: f:/FPGA/Vivado/2024.1\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: F:\BaiduSyncdisk\NeedToBeDone\BCM5572NEW\Opnesource:DESKTOP-OFHPUE8-2025-07-02周三_0-28-33.69
+RDI_SHARED_DATA: f:/FPGA/SharedData/2024.1/data
+RDI_TPS_ROOT: f:/FPGA/Vivado/2024.1/tps/win64
+RDI_USE_JDK21: True
+RDI_VERBOSE: False
+XILINX: f:/FPGA/Vivado/2024.1/ids_lite/ISE
+XILINX_DSP: f:/FPGA/Vivado/2024.1/ids_lite/ISE
+XILINX_HLS: f:/FPGA/Vitis_HLS/2024.1
+XILINX_PLANAHEAD: f:/FPGA/Vivado/2024.1
+XILINX_SDK: f:/FPGA/Vitis/2024.1
+XILINX_VITIS: f:/FPGA/Vitis/2024.1
+XILINX_VIVADO: f:/FPGA/Vivado/2024.1
+XILINX_VIVADO_HLS: f:/FPGA/Vivado/2024.1
+_RDI_BINROOT: f:\FPGA\Vivado\2024.1\bin
+_RDI_CWD: F:\BaiduSyncdisk\NeedToBeDone\BCM5572NEW\Opnesource
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,167 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: source vivado_generate_project_captain_75T.tcl -notrace 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 96 MB (+98499kb) [00:00:08]
+// [Engine Memory]: 1,225 MB (+1133390kb) [00:00:08]
+// [GUI Memory]: 122 MB (+22188kb) [00:00:08]
+// [GUI Memory]: 132 MB (+3321kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'f:/FPGA/Vivado/2024.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,253 MB. GUI used memory: 75 MB. Current time: 7/2/25, 12:28:44 AM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PROJECT_CHANGE
+// [GUI Memory]: 151 MB (+13262kb) [00:00:09]
+// TclEventType: PROJECT_CHANGE
+// [Engine Memory]: 1,304 MB (+18080kb) [00:00:10]
+// Tcl Message: create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 1667.113 ; gain = 410.699 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// [Engine Memory]: 1,371 MB (+2055kb) [00:00:11]
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: Upgrading 'bram_bar_zero4k' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// [GUI Memory]: 159 MB (+310kb) [00:00:18]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded bram_bar_zero4k (Block Memory Generator 8.4) from revision 7 to revision 8 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'bram_bar_zero4k'... 
+// Tcl Message: Upgrading 'bram_pcie_cfgspace' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded bram_pcie_cfgspace (Block Memory Generator 8.4) from revision 7 to revision 8 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'bram_pcie_cfgspace'... 
+// Tcl Message: Upgrading 'drom_pcie_cfgspace_rw1c' 
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated drom_pcie_cfgspace_rw1c to use current project options INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'drom_pcie_cfgspace_rw1c'... 
+// Tcl Message: Upgrading 'drom_pcie_cfgspace_writemask' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded drom_pcie_cfgspace_writemask (Distributed Memory Generator 8.0) from revision 14 to revision 15 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'drom_pcie_cfgspace_writemask'... 
+// Tcl Message: Upgrading 'fifo_129_129_clk1' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_129_129_clk1 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_129_129_clk1'... 
+// Tcl Message: Upgrading 'fifo_134_134_clk1_bar_rdrsp' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_134_134_clk1_bar_rdrsp (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_134_134_clk1_bar_rdrsp'... 
+// Tcl Message: Upgrading 'fifo_134_134_clk2' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_134_134_clk2 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_134_134_clk2'... 
+// Tcl Message: Upgrading 'fifo_134_134_clk2_rxfifo' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_134_134_clk2_rxfifo (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_134_134_clk2_rxfifo'... 
+// Tcl Message: Upgrading 'fifo_141_141_clk1_bar_wr' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_141_141_clk1_bar_wr (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_141_141_clk1_bar_wr'... 
+// Tcl Message: Upgrading 'fifo_1_1_clk2' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_1_1_clk2 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_1_1_clk2'... 
+// Tcl Message: Upgrading 'fifo_256_32_clk2_comtx' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_256_32_clk2_comtx (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_256_32_clk2_comtx'... 
+// Tcl Message: Upgrading 'fifo_32_32_clk1_comtx' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_32_32_clk1_comtx (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_32_32_clk1_comtx'... 
+// Tcl Message: Upgrading 'fifo_32_32_clk2' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_32_32_clk2 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_32_32_clk2'... 
+// Tcl Message: Upgrading 'fifo_34_34' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_34_34 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_34_34'... 
+// Tcl Message: Upgrading 'fifo_43_43_clk2' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_43_43_clk2 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_43_43_clk2'... 
+// Tcl Message: Upgrading 'fifo_49_49_clk2' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_49_49_clk2 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_49_49_clk2'... 
+// Tcl Message: Upgrading 'fifo_4_4_clk1_bar_rd1' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_4_4_clk1_bar_rd1 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_4_4_clk1_bar_rd1'... 
+// Tcl Message: Upgrading 'fifo_64_64' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_64_64 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_64_64'... 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// [Engine Memory]: 1,441 MB (+1839kb) [00:00:19]
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_OPTIONS_MODIFIED
+// TclEventType: PROJECT_DASHBOARD_CHANGE
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: Upgrading 'fifo_64_64_clk1_fifocmd' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_64_64_clk1_fifocmd (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_64_64_clk1_fifocmd'... 
+// Tcl Message: Upgrading 'fifo_64_64_clk2_comrx' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_64_64_clk2_comrx (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_64_64_clk2_comrx'... 
+// Tcl Message: Upgrading 'fifo_74_74_clk1_bar_rd1' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded fifo_74_74_clk1_bar_rd1 (FIFO Generator 13.2) from revision 9 to revision 10 INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_74_74_clk1_bar_rd1'... 
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2024.176 ; gain = 54.301 
+// Tcl Message: INFO: Project created:pcileech_enigma_x1 
+dismissDialog("Sourcing Tcl script 'vivado_generate_project_captain_75T.tcl'"); // bj (Sourcing Tcl script 'vivado_generate_project_captain_75T.tcl' Progress)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_pcie_cfg_a7.sv]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_pcie_cfg_a7.sv]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,506 MB. GUI used memory: 87 MB. Current time: 7/2/25, 12:29:04 AM CST
+// Elapsed Time for: 'L.f': 20s
+// Elapsed time: 14 seconds
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 277, 462); // ac (pcileech_pcie_cfg_a7.sv)
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 84, 496); // ac (pcileech_pcie_cfg_a7.sv)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_tlps128_cfgspace_shadow.sv]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_tlps128_cfgspace_shadow.sv]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_tlps128_cfgspace_shadow.sv]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 262, 163); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 8, 122); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 17, 229); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 58s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 01m:00s
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 24, 291); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 2, 82); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 0, 77); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01m:10s
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 386, 198); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+// Elapsed Time for: 'L.f': 01m:12s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01m:16s
+// Elapsed Time for: 'L.f': 01m:18s
+// Elapsed time: 10 seconds
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 72, 313); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 19, 244); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 01m:32s
+// Elapsed Time for: 'L.f': 01m:34s
+// Elapsed time: 15 seconds
+selectCodeEditor("pcileech_tlps128_cfgspace_shadow.sv", 803, 262); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+typeControlKey((HResource) null, "pcileech_tlps128_cfgspace_shadow.sv", 'v'); // ac (pcileech_tlps128_cfgspace_shadow.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01m:44s
+// Elapsed Time for: 'L.f': 01m:46s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_pcie_cfg_a7.sv]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_pcie_cfg_a7.sv]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 40, 498); // ac (pcileech_pcie_cfg_a7.sv)
+typeControlKey((HResource) null, "pcileech_pcie_cfg_a7.sv", 'v'); // ac (pcileech_pcie_cfg_a7.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02m:02s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 02m:04s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_pcie_cfg_a7.sv]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_pcie_cfg_a7.sv]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("pcileech_enigma_x1_top.sv", 443, 354); // ac (pcileech_enigma_x1_top.sv)
+selectCodeEditor("pcileech_enigma_x1_top.sv", 296, 366); // ac (pcileech_enigma_x1_top.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pcileech_enigma_x1_top.sv", 211, 350); // ac (pcileech_enigma_x1_top.sv)
+// Elapsed Time for: 'L.f': 02m:24s
+// Elapsed Time for: 'L.f': 02m:26s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02m:28s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_pcie_cfg_a7.sv]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 02m:30s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_pcie_cfg_a7.sv]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, pcileech_pcie_cfg_a7.sv]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 102, 482); // ac (pcileech_pcie_cfg_a7.sv)
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 16, 490); // ac (pcileech_pcie_cfg_a7.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02m:42s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02m:44s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 02m:46s
+// Elapsed Time for: 'L.f': 02m:48s
+// Elapsed time: 66 seconds
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 422, 199); // ac (pcileech_pcie_cfg_a7.sv)
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 422, 250); // ac (pcileech_pcie_cfg_a7.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03m:50s
+// Elapsed Time for: 'L.f': 03m:52s
+// Elapsed time: 25 seconds
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 203, 364); // ac (pcileech_pcie_cfg_a7.sv)
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 253, 343); // ac (pcileech_pcie_cfg_a7.sv)
+selectCodeEditor("pcileech_pcie_cfg_a7.sv", 192, 370); // ac (pcileech_pcie_cfg_a7.sv)
+// [GUI Memory]: 167 MB (+639kb) [00:04:28]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 04m:22s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 04m:24s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcie_7x_0 : pcie_7x_0 (pcie_7x_0.v)]", 10); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcie_7x_0 : pcie_7x_0 (pcie_7x_0.v), inst : pcie_7x_0_pcie2_top (pcie_7x_0_pcie2_top.v), inst : pcie_7x_0_core_top (pcie_7x_0_core_top.v)]", 12, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcie_7x_0 : pcie_7x_0 (pcie_7x_0.v), inst : pcie_7x_0_pcie2_top (pcie_7x_0_pcie2_top.v), inst : pcie_7x_0_core_top (pcie_7x_0_core_top.v), gt_top_i : pcie_7x_0_gt_top (pcie_7x_0_gt_top.v)]", 14, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 11 seconds
+selectCodeEditor("pcie_7x_0_core_top.v", 217, 316); // ac (pcie_7x_0_core_top.v)
+typeControlKey((HResource) null, "pcie_7x_0_core_top.v", 'c'); // ac (pcie_7x_0_core_top.v)
+typeControlKey((HResource) null, "pcie_7x_0_core_top.v", 'c'); // ac (pcie_7x_0_core_top.v)
+typeControlKey((HResource) null, "pcie_7x_0_core_top.v", 'c'); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 13, 379); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 7, 326); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 11, 278); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 24, 314); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 9, 318); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 4, 342); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 343, 348); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 51, 271); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 298, 330); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 339, 309); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 435, 311); // ac (pcie_7x_0_core_top.v)
+// Elapsed time: 12 seconds
+selectCodeEditor("pcie_7x_0_core_top.v", 350, 407); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 354, 418); // ac (pcie_7x_0_core_top.v)
+typeControlKey((HResource) null, "pcie_7x_0_core_top.v", 'v'); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 22, 429); // ac (pcie_7x_0_core_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:30s
+// Elapsed Time for: 'L.f': 05m:32s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed time: 18 seconds
+selectCodeEditor("pcie_7x_0_core_top.v", 47, 335); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 186, 443); // ac (pcie_7x_0_core_top.v)
+selectCodeEditor("pcie_7x_0_core_top.v", 3, 442); // ac (pcie_7x_0_core_top.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 05m:54s
+// Elapsed Time for: 'L.f': 05m:56s
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcileech_enigma_x1_top.sv", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+dismissDialog("No Implementation Results Available"); // t (dialog0)
+dismissDialog("Resetting Runs"); // bj (Resetting Runs Progress)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 20 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// [GUI Memory]: 180 MB (+4150kb) [00:06:22]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 1,514 MB (+724kb) [00:06:24]
+// TclEventType: RUN_MODIFY
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jul  2 00:35:00 2025] Launched impl_1... Run output will be captured here: F:/BaiduSyncdisk/NeedToBeDone/BCM5572NEW/Opnesource/pcileech_enigma_x1/pcileech_enigma_x1.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2101.496 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_runs' failed due to earlier errors.  
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'L.f': 06m:16s
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Launch Run Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Launch Run Critical Messages"); // ba (dialog1)
+// Elapsed Time for: 'L.f': 06m:18s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,551 MB. GUI used memory: 102 MB. Current time: 7/2/25, 12:35:04 AM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcileech_tlps128_cfgspace_shadow.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcileech_pcie_cfg_a7.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g (PAResourceQtoS.SyntheticaStateMonitor_CANCEL, Cancel)
+selectButton("OptionPane.button", "Cancel Process", "Cancel Synthesis"); // JButton (OptionPane.button)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_64_64_clk2_comrx_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_32_32_clk1_comtx_synth_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run bram_pcie_cfgspace_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run drom_pcie_cfgspace_writemask_synth_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_129_129_clk1_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_134_134_clk2_synth_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_134_134_clk1_bar_rdrsp_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_256_32_clk2_comtx_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_64_64_clk1_fifocmd_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_74_74_clk1_bar_rd1_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: reset_run fifo_32_32_clk2_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_64_64_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_49_49_clk2_synth_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_43_43_clk2_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run drom_pcie_cfgspace_rw1c_synth_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_141_141_clk1_bar_wr_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_1_1_clk2_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Tcl Message: reset_run fifo_134_134_clk2_rxfifo_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_34_34_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Elapsed time: 19 seconds
+dismissDialog("Resetting Runs"); // bj (Resetting Runs Progress)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv), i_bar0 : xil_defaultlib.pcileech_bar_impl_BCM]", 12, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv), i_bar0 : xil_defaultlib.pcileech_bar_impl_BCM]", 12, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ap (PAResourceCommand.PACommandNames_ADD_SOURCES, add_sources_menu)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+selectButton(RDIResource.HJFileChooserHelpers_JUMP_TO_CURRENT_WORKING_DIRECTORY, (String) null, "Add Source Files"); // a (RDIResource.HJFileChooserHelpers_JUMP_TO_CURRENT_WORKING_DIRECTORY)
+setFileChooser("F:/BaiduSyncdisk/NeedToBeDone/BCM5572NEW/Opnesource/BCM-opensource.SV");
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // c (dialog2)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse F:/BaiduSyncdisk/NeedToBeDone/BCM5572NEW/Opnesource/BCM-opensource.SV 
+// Elapsed Time for: 'L.f': 07m:04s
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 07m:06s
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, BCM-opensource.SV]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, BCM-opensource.SV]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("BCM-opensource.SV", 392, 181); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 875, 188); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 963, 176); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 813, 198); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 537, 228); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 560, 166); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 282, 198); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 316, 200); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 346, 200); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 147, 184); // ac (BCM-opensource.SV)
+// Elapsed time: 37 seconds
+selectCodeEditor("BCM-opensource.SV", 155, 179); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 371, 178); // ac (BCM-opensource.SV)
+typeControlKey((HResource) null, "BCM-opensource.SV", 'c'); // ac (BCM-opensource.SV)
+typeControlKey((HResource) null, "BCM-opensource.SV", 'v'); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 820, 214); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 777, 192); // ac (BCM-opensource.SV)
+typeControlKey((HResource) null, "BCM-opensource.SV", 'c'); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 760, 178); // ac (BCM-opensource.SV)
+typeControlKey((HResource) null, "BCM-opensource.SV", 'v'); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 946, 185); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 0, 195); // ac (BCM-opensource.SV)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 08m:38s
+// Elapsed Time for: 'L.f': 08m:40s
+// Elapsed time: 12 seconds
+selectCodeEditor("BCM-opensource.SV", 934, 172); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 939, 175); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 166, 179); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 392, 182); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 497, 181); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 623, 180); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 778, 178); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 892, 176); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 939, 179); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 940, 178); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 167, 178); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 547, 225); // ac (BCM-opensource.SV)
+selectCodeEditor("BCM-opensource.SV", 669, 188); // ac (BCM-opensource.SV)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("BCM-opensource.SV", 475, 180); // ac (BCM-opensource.SV)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 09m:14s
+selectCodeEditor("BCM-opensource.SV", 680, 172); // ac (BCM-opensource.SV)
+// Elapsed Time for: 'L.f': 09m:16s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 09m:18s
+selectCodeEditor("BCM-opensource.SV", 997, 194); // ac (BCM-opensource.SV)
+// Elapsed Time for: 'L.f': 09m:20s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 09m:24s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 09m:26s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+dismissDialog("No Implementation Results Available"); // t (dialog4)
+dismissDialog("Resetting Runs"); // bj (Resetting Runs Progress)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 20 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// [GUI Memory]: 189 MB (+86kb) [00:09:39]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+dismissDialog("Generate Bitstream"); // bj (Generate Bitstream Progress)
+// Elapsed Time for: 'L.f': 09m:32s
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'L.f': 09m:34s
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcie_7x_0_core_top.v", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcileech_enigma_x1_top.sv", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, pcileech_header.svh]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, pcileech_header.svh]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 6, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("pcileech_enigma_x1_top.sv", 393, 430); // ac (pcileech_enigma_x1_top.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 10m:28s
+// Elapsed Time for: 'L.f': 10m:30s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_fifo : pcileech_fifo (pcileech_fifo.sv)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_fifo : pcileech_fifo (pcileech_fifo.sv)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_fifo : pcileech_fifo (pcileech_fifo.sv)]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 6, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 6, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 420ms to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pcileech_pcie_a7.sv", 355, 351); // ac (pcileech_pcie_a7.sv)
+selectCodeEditor("pcileech_pcie_a7.sv", 468, 354); // ac (pcileech_pcie_a7.sv)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("pcileech_pcie_a7.sv", 61, 348); // ac (pcileech_pcie_a7.sv)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g (PAResourceQtoS.SyntheticaStateMonitor_CANCEL, Cancel)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+selectButton("OptionPane.button", "Cancel Process", "Cancel Synthesis"); // JButton (OptionPane.button)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 205 MB (+6719kb) [00:11:08]
+// TclEventType: RUN_RESET
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_64_64_clk2_comrx_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_32_32_clk1_comtx_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_129_129_clk1_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_134_134_clk2_synth_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_134_134_clk1_bar_rdrsp_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run fifo_256_32_clk2_comtx_synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_74_74_clk1_bar_rd1_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_32_32_clk2_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_64_64_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_43_43_clk2_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_141_141_clk1_bar_wr_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 218 MB (+2869kb) [00:11:12]
+// Tcl Message: reset_run fifo_1_1_clk2_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_134_134_clk2_rxfifo_synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run fifo_34_34_synth_1 
+dismissDialog("Resetting Runs"); // bj (Resetting Runs Progress)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("pcileech_pcie_a7.sv", 461, 348); // ac (pcileech_pcie_a7.sv)
+selectCodeEditor("pcileech_pcie_a7.sv", 468, 300); // ac (pcileech_pcie_a7.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 11m:12s
+// Tcl Message: INFO: [Common 17-14] Message 'filemgmt 56-199' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Elapsed Time for: 'L.f': 11m:14s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv)]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_cfg_a7 : pcileech_pcie_cfg_a7 (pcileech_pcie_cfg_a7.sv)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_cfg_a7 : pcileech_pcie_cfg_a7 (pcileech_pcie_cfg_a7.sv)]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 12 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_cfg_a7 : pcileech_pcie_cfg_a7 (pcileech_pcie_cfg_a7.sv)]", 7); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv)]", 9, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_dst_fifo : pcileech_tlps128_dst_fifo (pcileech_pcie_tlp_a7.sv)]", 13, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("pcileech_pcie_tlp_a7.sv", 410, 280); // ac (pcileech_pcie_tlp_a7.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 11m:40s
+// Elapsed Time for: 'L.f': 11m:42s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv)]", 10); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv), i_pcileech_tlps128_bar_wrengine : pcileech_tlps128_bar_wrengine (pcileech_tlps128_bar_controller.sv)]", 12, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv), i_pcileech_tlps128_bar_wrengine : pcileech_tlps128_bar_wrengine (pcileech_tlps128_bar_controller.sv)]", 12, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 16 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv), i_pcileech_tlps128_bar_wrengine : pcileech_tlps128_bar_wrengine (pcileech_tlps128_bar_controller.sv)]", 12); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv), i_bar0 : pcileech_bar_impl_BCM (BCM-opensource.SV)]", 13, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pcileech_enigma_x1_top (pcileech_enigma_x1_top.sv), i_pcileech_pcie_a7 : pcileech_pcie_a7 (pcileech_pcie_a7.sv), i_pcileech_pcie_tlp_a7 : pcileech_pcie_tlp_a7 (pcileech_pcie_tlp_a7.sv), i_pcileech_tlps128_bar_controller : pcileech_tlps128_bar_controller (pcileech_tlps128_bar_controller.sv), i_bar0 : pcileech_bar_impl_BCM (BCM-opensource.SV)]", 13, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+dismissDialog("No Implementation Results Available"); // t (dialog5)
+dismissDialog("Resetting Runs"); // bj (Resetting Runs Progress)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 20 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+dismissDialog("Generate Bitstream"); // bj (Generate Bitstream Progress)
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed Time for: 'L.f': 12m:12s
+// Elapsed Time for: 'L.f': 12m:14s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 235 MB (+6408kb) [00:13:05]
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 56 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcileech_fifo.sv", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcileech_pcie_a7.sv", 4); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcileech_pcie_cfg_a7.sv", 5); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcileech_pcie_tlp_a7.sv", 6); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pcileech_tlps128_bar_controller.sv", 7); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BCM-opensource.SV", 8); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 91 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 25 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "2 critical warnings"); // g (PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Netlist 29-72] Incorrect value '3' specified for property 'MSI_CAP_MULTIMSG_EXTENSION'. Expecting type 'int' with possible values of '0,1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [F:/BaiduSyncdisk/NeedToBeDone/BCM5572NEW/Opnesource/pcileech_enigma_x1/pcileech_enigma_x1.srcs/sources_1/imports/Opnesource/pcie_7x/pcie_7x_0_pcie_7x.v:1147]. ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 16 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Netlist 29-72] Incorrect value '3' specified for property 'MSI_CAP_MULTIMSG_EXTENSION'. Expecting type 'int' with possible values of '0,1'. The system will either use the default value or the property value will be dropped. Please verify your source files. [F:/BaiduSyncdisk/NeedToBeDone/BCM5572NEW/Opnesource/pcileech_enigma_x1/pcileech_enigma_x1.srcs/sources_1/imports/Opnesource/pcie_7x/pcie_7x_0_pcie_7x.v:1147]. ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;F:\BaiduSyncdisk\NeedToBeDone\BCM5572NEW\Opnesource\pcileech_enigma_x1\pcileech_enigma_x1.srcs\sources_1\imports\Opnesource\pcie_7x\pcie_7x_0_pcie_7x.v;-;;-;16;-;line;-;1147;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 117 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Bitstream Generation Completed"); // Q.a (dialog6)
